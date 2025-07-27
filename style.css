@@ -409,3 +409,201 @@ footer a{
     height: 50px;
     padding-left: 10px;
 }
+
+@media screen and (max-width:412px) {
+
+    .starbucksPresentacion{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .starbucksPresentacionIzquierdo{
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .starbucksPresentacionIzquierdo h1{
+        font-size: 1.1rem;
+        margin-top: 45px;
+    }
+
+    .starbucksPresentacionIzquierdo button{
+        width: 90%;
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .starbucksPresentacion img{
+        height: auto;
+        border-radius: 0;
+    }
+
+    .recompensasStarbucks h2{
+        margin-top: 30px;
+    }
+
+    .recompensasStarbucks section{
+        flex-direction: column;
+    }
+
+    #recompensasPrimerImagen{
+        padding-left: 30px;
+    }
+
+    .recompensasStarbucksTexto{
+        width: 255px;
+    }
+
+    .recompensasStarbucksContenedor img{
+        padding-top: 20px;
+        width: 70px;
+        height: 70px;
+        padding-right: 20px;
+    }
+    
+    .recompensasStarbucksBotones{
+        flex-direction: column;
+    }
+
+    .recompensasStarbucksBotones button{
+        height: 50px;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .contenedorInfoStarbucksIzquierdo, .contenedorInfoStarbucksDerecho{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .infoStarbucks img{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #ultimoContenedorInfoStarbucks{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    .infoStarbucks p{
+        padding-left: 20px;
+    }
+
+    .infoStarbucks button{
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #primerProductoContenedor{
+        margin-left: 625px;
+    }
+
+    .productosContenedor{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    #productosSubtitulo{
+        margin-left: 20px;
+    }
+
+    .ubicacion div{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .ubicacion div img{
+        width: 100%;
+    }
+
+    .ubicacion p{
+        padding-left: 20px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .ubicacion div div h2{
+        margin-top: 20px;
+    }
+
+    .ubicacion div div button{
+        margin-top: 20px;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .footerSobreNosotros{
+        flex-direction: column;
+    }
+
+    #logoStarbucksFooter{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .footerSobreNosotros div{
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+
+    .footerSobreNosotros h4{
+        margin-top: 30px;
+    }
+
+    .footerContactoEnlaces{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .footerContactoEnlaces a{
+        font-size: 0.8rem;
+    }
+
+    .footerContactoEnlaces button{
+        width: auto;
+    }
+    
+    .footerContactoEnlaces :nth-child(4){
+        width: auto;
+    }
+    
+    .footerContactoEnlaces :nth-child(5){
+        width: auto;
+    }
+
+    .footerContactoEnlaces :nth-child(6){
+        width: auto;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .footerContacto{
+        margin-top: 50px;
+    }
+
+    .logosContenedor{
+        margin-left: 9px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .tiendaStore{
+        margin-left: 15px;
+        width: 88%;
+    }
+
+    .opcionesNav{
+        visibility: hidden;
+    }
+
+    nav{
+        height: 65px;
+    }
+
+}
